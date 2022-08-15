@@ -1,0 +1,88 @@
+.paragraph {
+    font-size: 16px;
+    line-height: 1.4211;
+    font-weight: 400;
+    letter-spacing: .012em;
+    padding-bottom: 1.4211rem
+}
+
+.pagebody,
+h1,
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 700;
+    letter-spacing: -.003em;
+    color: #1d1d1f;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.return_button {
+    display: table;
+    margin: 1% auto;
+    margin-bottom: 40px;
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.button-3:hover {
+    background-color: #2c974b;
+}
+
+.button-3:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.button-3:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-3:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif
+}

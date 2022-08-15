@@ -3,101 +3,31 @@
   <head>
     <title>Coursera Research</title>
   </head>
-  <style>
-    
-    * {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .course_list {
-      list-style: none;
-      margin-left: 10%;
-      margin-right: 10%;
-      padding-left: 0%;
-
-    }
-    
-    .course_card {
-      display: flex;
-      border-bottom: 1px solid #808080;
-      padding: 1em;
-    }
-
-    .course_image {
-      width: 150px;
-      height: 150px;
-      vertical-align: middle;
-      border-radius: 5%;
-      object-fit: cover;
-    }
-
-    .course_info {
-      margin-left: 1em;
-    }
-
-    .course_name {
-      color: #002145;
-      font-size: large;
-      margin-top: 0;
-    }
-
-    .school_name {
-      color: #0055B7;
-      font-size: small;
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-bottom: 2px;
-    }
-
-    .instructor {
-      color: #808080;
-      font-size: small;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-
-    .instructor_title {
-      color: #808080;
-      font-size: small;
-      margin-top: 0;
-      font-weight: normal;
-    }
-
-    .difficulty {
-      color: #808080;
-      font-size: smaller;
-      margin-top: 0;
-      margin-bottom: 0;
-      font-weight: normal;
-    }
-
-    .course_detail {
-      color: #808080;
-      font-size: small;
-    }
-  </style>
+  <link rel="stylesheet" href="../stylesheets/course_list.css" />
   <body>
     <ul class="course_list">
       <li class="course_item">
         <div class="course_card">
-          <img class="course_image" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a8/b839ee6b2a410f861a2368b0845f8d/New-RSM-Hummingbird.jpg?auto=format%2Ccompress&dpr=2&w=240&h=130&fit=facearea" alt="Course picture">
+          <img class="course_image" src="https://coursera-course-photos.s3.amazonaws.com/a8/b839ee6b2a410f861a2368b0845f8d/New-RSM-Hummingbird.jpg?auto=format%2Ccompress&dpr=2&w=240&h=130&fit=facearea" alt="Course picture">
           <div class="course_info">
             <h1 class="course_name">Driving business towards the Sustainable Development Goals</h1>
             <h3 class="school_name">Erasmus University Rotterdam</h3>
             <h3 class="instructor">Eva Rood</h3>
             <h3 class="instructor_title">Director, Positive Change Initiative</h3>
             <h3 class="difficulty">Beginner</h3>
+            <button class="description" onclick="location.href = 'ESG.html'">Learn More</button>
           </div>
         </div>
       </li>
       <li class="course_item">
         <div class="course_card">
-          <img class="course_image" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/27/d39e208e7411e7977d1df3c4377a4a/DM-Specialization.png?auto=format%2Ccompress&dpr=2&w=240&h=130&fit=facearea">
+          <img class="course_image" src="https://coursera-course-photos.s3.amazonaws.com/27/d39e208e7411e7977d1df3c4377a4a/DM-Specialization.png?auto=format%2Ccompress&dpr=2&w=240&h=130&fit=facearea">
           <div class="course_info">
             <h1 class="course_name">Digital Marketing Capstone</h1>
             <h3 class="school_name">University of Illinois at Urbana-Champaign</h3>
             <h3 class="instructor">Aric Rindfleisch</h3>
             <h3 class="instructor_title">John M. Jones Professor of Marketing</h3>
+            <button class="description" onclick="location.href = 'Digital_Marketing.html'">Learn More</button>
           </div>
         </div>
       </li>
@@ -109,6 +39,7 @@
             <h3 class="school_name">Università Bocconi</h3>
             <h3 class="instructor">Andrea Rurale</h3>
             <h3 class="instructor_title"> Director, Master in Arts Management and Administration (MAMA) </h3>
+            <button class="description" onclick="location.href = 'Art_Heritage.html'">Learn More</button>
           </div>
         </div>
       </li>
