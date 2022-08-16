@@ -24,6 +24,18 @@
     object-fit: cover;
 }
 
+.institute_image{
+    width: 25px;
+    margin-right: 5px
+
+}
+
+.institute_container{
+    display:flex;
+    align-items: center;
+    margin-bottom: 10px
+}
+
 .course_info {
     margin-left: 1em;
 }

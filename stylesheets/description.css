@@ -7,8 +7,7 @@
 }
 
 .pagebody,
-h1,
-h2 {
+h1{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
