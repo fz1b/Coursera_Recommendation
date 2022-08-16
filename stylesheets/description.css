@@ -3,14 +3,12 @@
     line-height: 1.4211;
     font-weight: 400;
     letter-spacing: .012em;
-    padding-bottom: 1.4211rem
 }
 
-.pagebody,
-h1{
+.pagebody{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
 }
 
 h1 {
